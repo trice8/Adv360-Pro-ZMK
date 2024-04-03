@@ -10,6 +10,15 @@
 #define THUMBS_R 37 38 53 68 69 70
 #define THUMBS THUMBS_L THUMBS_R
 
+#define _A_LGUI     &hm_l LGUI A
+#define _S_LALT     &hm_l LALT S
+#define _D_LSHFT    &hm_l LSHFT D
+#define _F_LCTRL    &hm_l LCTRL F
+#define _J_RCTRL    &hm_r RCTRL J
+#define _K_RSHFT    &hm_r RSHFT K
+#define _L_RALT     &hm_r RALT L
+#define _S_RGUI     &hm_r RGUI SEMI
+
 / {
     behaviors {
       #include "macros.dtsi"
@@ -56,15 +65,6 @@
       };
 
     };
-
-  #define _A_LGUI     &hm_l LGUI A
-  #define _S_LALT     &hm_l LALT S
-  #define _D_LSHFT    &hm_l LSHFT D
-  #define _F_LCTRL    &hm_l LCTRL F
-  #define _J_RCTRL    &hm_r RCTRL J
-  #define _K_RSHFT    &hm_r RSHFT K
-  #define _L_RALT     &hm_r RALT L
-  #define _S_RGUI     &hm_r RGUI SEMI
 
   keymap {
     compatible = "zmk,keymap";
