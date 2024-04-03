@@ -37,7 +37,7 @@
           label = "HOMEROW_MODS_LEFT";
           #binding-cells = <2>;
           flavor = "balanced";
-          tapping-term-ms = <128>;
+          tapping-term-ms = <96>;
           quick-tap-ms = <128>;
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <KEYS_L THUMBS>;
@@ -48,7 +48,7 @@
           label = "HOMEROW_MODS_RIGHT";
           #binding-cells = <2>;
           flavor = "balanced";
-          tapping-term-ms = <128>;
+          tapping-term-ms = <96>;
           quick-tap-ms = <128>;
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <KEYS_R THUMBS>;
