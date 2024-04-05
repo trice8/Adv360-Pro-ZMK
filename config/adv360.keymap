@@ -41,7 +41,6 @@
           quick-tap-ms = <152>;
           require-prior-idle-ms = <150>;
           bindings = <&kp>, <&kp>;
-          hold-trigger-key-positions = <KEYS_R THUMBS>;
           hold-trigger-on-release;
       };
 
@@ -54,7 +53,6 @@
           quick-tap-ms = <152>;
           require-prior-idle-ms = <150>;
           bindings = <&kp>, <&kp>;
-          hold-trigger-key-positions = <KEYS_L THUMBS>;
           hold-trigger-on-release;
       };
 
