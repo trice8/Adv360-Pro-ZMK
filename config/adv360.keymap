@@ -37,10 +37,12 @@
           label = "HOMEROW_MODS_LEFT";
           #binding-cells = <2>;
           flavor = "balanced";
-          tapping-term-ms = <128>;
-          quick-tap-ms = <128>;
+          tapping-term-ms = <256>;
+          quick-tap-ms = <152>;
+          require-prior-idle-ms = <150>;
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <KEYS_L THUMBS>;
+          hold-trigger-on-release;
       };
 
     hm_r: homerow_mods_right {
@@ -48,10 +50,12 @@
           label = "HOMEROW_MODS_RIGHT";
           #binding-cells = <2>;
           flavor = "balanced";
-          tapping-term-ms = <128>;
-          quick-tap-ms = <128>;
+          tapping-term-ms = <256>;
+          quick-tap-ms = <152>;
+          require-prior-idle-ms = <150>;
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <KEYS_R THUMBS>;
+          hold-trigger-on-release;
       };
 
     };
